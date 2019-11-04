@@ -1,0 +1,13 @@
+/*  Carter Brehm
+	brehm_a4.css
+	INFO2439.PLA
+	Thoendel
+	10/5/19
+*/
+
+label,
+legend,
+footer {
+    color: #FFFFFF;
+    text-shadow: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Popup</title>
+<meta name="viewport" 
+      content="width=device-width, initial-scale=1">	
+<link rel="stylesheet" 
+      href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script type="text/javascript" 
+        src="http://code.jquery.com/jquery-2.1.3.min.js">
+</script>
+<script type="text/javascript" 
+        src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
+</script>
+</head>
+
+<body>
+<!-- Carter Brehm
+     test8.html
+     INFO2439
+     Thoendel
+     10/15/19
+-->
+<div data-role="page" id="first"><!-- Opening page div -->
+
+	<div data-role="header"><!-- Opening Header div -->
+		<h1>Advanced Popup Demo</h1>
+	</div><!-- closing Header div -->
+	
+	<div role="main" class="ui-content"><!-- Opening content div -->
+		
+		<a href="#firstPopup" data-role="button" 
+		data-rel="popup" data-position-to="window">Show Popup</a>
+		<p>
+			I'm including some text here just so that we can properly demo the
+			new position of my popup. It will be centered on the window, not the link 
+			above. That is <i>awesome</i>.
+		</p>
+	</div><!-- closing content div -->
+
+	<div data-role="popup" id="firstPopup" data-dismissible="false" class="ui-content">
+    <p>This is just a test. It has some text in it. It is incredibly awesome.</p>
+    <a href="" data-rel="back" data-theme="b" data-role="button">Get Rid Of Me</a>
+	</div>
+
+</div><!-- closing page div -->
+
+</body>
+</html>

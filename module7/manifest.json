@@ -1,0 +1,38 @@
+{
+    "name": "Carter Brehm Assignment 6",
+    "short_name": "Carter Brehm Assignment 6",
+    "lang": "en-US",
+    "start_url": "/~crbrehm/module7",
+    "display": "standalone",
+    "icons": [{
+            "src": "./Icon-57.png",
+            "sizes": "57x57",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icon-76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icon-120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icon-180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "./Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
