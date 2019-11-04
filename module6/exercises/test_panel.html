@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Panel</title>
+<meta name="viewport" 
+      content="width=device-width, initial-scale=1">	
+<link rel="stylesheet" 
+      href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script type="text/javascript" 
+        src="http://code.jquery.com/jquery-2.1.3.min.js">
+</script>
+<script type="text/javascript" 
+        src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js">
+</script>
+</head>
+
+<body>
+<!-- Carter Brehm
+     test_panel.html
+     INFO2439
+     Thoendel
+     10/15/19
+-->
+<div data-role="page" id="first"><!-- Opening page div -->
+
+	<div data-role="panel" id="leftPanel" data-display="overlay">
+		This is the left panel.
+
+		<p>
+			<a data-role="button" data-rel="close">Close</a>
+		</p>
+
+	</div>
+
+	<div data-role="header"><!-- Opening Header div -->
+		<h1>Test Panel</h1>
+	</div><!-- closing Header div -->
+	
+	<div role="main" class="ui-content"><!-- Opening content div -->
+
+		<a href="#leftPanel" data-role="button">Open My Panel!</a>
+		<a href="#rightPanel" data-role="button">Open Another Panel!</a>
+
+	</div>
+
+
+	<div data-role="panel" data-position="right" id="rightPanel">
+		This is the right panel.
+
+		<p>
+			<a data-role="button" data-rel="close">Close</a>
+		</p>
+
+	</div><!-- closing content div -->
+
+</div><!-- closing page div -->
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Brehm | INFO 2439 | Assignment #2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="_css/brehm_a2.css" />
+</head>
+
+<body>
+    <!--    Carter Brehm
+        assignment2.html
+        INFO2439.PLA
+        Thoendel
+        9/9/19
+-->
+
+    <div data-role="page" id="homePage" data-title="Brehm | INFO 2439 | Assignment #2">
+        <header data-role="header" data-add-back-btn="true" data-position="fixed">
+            <h1>Assignment #2</h1>
+        </header>
+        <div role="main" class="ui-content">
+            <h2>Restaurant Mobile Application Research</h2>
+            <ul data-role="listview" data-inset="true">
+                <li><a data-transition="slide" data-ajax="false" href="#rmobileApp1">Jimmy John's</a></li>
+                <li><a data-transition="slide" data-ajax="false" href="#rmobileApp2">Baskin-Robbins</a></li>
+                <li><a data-transition="slide" data-ajax="false" href="#rmobileApp3">Olive Garden</a></li>
+            </ul>
+        </div>
+        <footer data-role="footer" data-position="fixed">Created by: <a href="mailto:crbrehm@mail.mccneb.edu">Carter Brehm</a></footer>
+    </div>
+
+    <div data-role="page" id="rmobileApp1" data-title="Jimmy John's">
+        <header data-role="header" data-add-back-btn="true" data-position="fixed">
+            <h1>Jimmy John's</h1>
+        </header>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">Details:</li>
+                <li>Restaurant Name: Jimmy Johns</li>
+                <li><a href="https://jimmyjohns.com">Restaurant Website</a></li>
+                <li>Restaurant Description: A sandwich franchise.</li>
+                <li><a href="https://apps.apple.com/us/app/jimmy-johns-sandwiches/id409366411">Mobile Application URL</a></li>
+                <li data-role="list-divider">Features:</li>
+                <li>Works limited screen sizes; each device needs its own version of the app</li>
+                <li>Supports on-device payment by interfacing with Apple Pay</li>
+                <li>Only relies on network for images and ordering, menu is offline</li>
+                <li>Relies on a separate build for iOS and Android</li>
+            </ul>
+        </div>
+        <footer data-role="footer" data-position="fixed">Created by: <a href="mailto:crbrehm@mail.mccneb.edu">Carter Brehm</a></footer>
+    </div>
+    <div data-role="page" id="rmobileApp2" data-title="Baskin-Robbins">
+        <header data-role="header" data-add-back-btn="true" data-position="fixed">
+            <h1>Baskin-Robbins</h1>
+        </header>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">Details:</li>
+                <li>Restaurant Name: Baskin-Robbins</li>
+                <li><a href="https://www.baskinrobbins.com">Restaurant Website</a></li>
+                <li>Restaurant Description: An ice cream franchise.</li>
+                <li><a href="https://apps.apple.com/us/app/baskin-robbins/id1133765058">Mobile Application URL</a></li>
+                <li data-role="list-divider">Features:</li>
+                <li>Supports all devices</li>
+                <li>Can be released on stores</li>
+                <li>Adaptive to all device sizes</li>
+                <li>App is unusable without network</li>
+            </ul>
+        </div>
+        <footer data-role="footer" data-position="fixed">Created by: <a href="mailto:crbrehm@mail.mccneb.edu">Carter Brehm</a></footer>
+    </div>
+    <div data-role="page" id="rmobileApp3" data-title="Olive Garden">
+        <header data-role="header" data-add-back-btn="true" data-position="fixed">
+            <h1>Olive Garden</h1>
+        </header>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">Details:</li>
+                <li>Restaurant Name: Olive Garden</li>
+                <li><a href="https://www.olivegarden.com">Restaurant Website</a></li>
+                <li>Restaurant Description: An italian kitchen franchise.</li>
+                <li><a href="https://www.olivegarden.com">Mobile Application URL</a></li>
+                <li data-role="list-divider">Features:</li>
+                <li>Supports all devices</li>
+                <li>Cannot be released on stores</li>
+                <li>Adaptive to all device sizes, including computers</li>
+                <li>Webpage is unusable without network</li>
+            </ul>
+        </div>
+        <footer data-role="footer" data-position="fixed">Created by: <a href="mailto:crbrehm@mail.mccneb.edu">Carter Brehm</a></footer>
+    </div>
+
+</body>
+
+</html>
